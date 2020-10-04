@@ -14,7 +14,10 @@ function testCommand {
   fi
 }
 
+# Universally known source control
 testCommand "git" "git --version"
+# For downloading tools and tarballs from internet sources
+testCommand "wget" "wget --version"
 
 echo ""
 echo "All tools are successfully installed."
