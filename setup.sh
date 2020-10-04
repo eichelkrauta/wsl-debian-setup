@@ -2,4 +2,5 @@
 
 set -euo pipefail
 
-echo "Hello world!"
+sudo apt-get update
+sudo apt-get install git
