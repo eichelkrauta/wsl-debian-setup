@@ -18,6 +18,7 @@ function testCommand {
 testCommand "git" "git --version"
 # For downloading tools and tarballs from internet sources
 testCommand "wget" "wget --version"
+testCommand "java" "java -version"
 
 echo ""
 echo "All tools are successfully installed."
