@@ -102,5 +102,7 @@ source $ZSH/oh-my-zsh.sh
 export DISPLAY="192.168.86.63:0.0"
 export LIBGL_ALWAYS_INDIRECT=1
 
+export JAVA_HOME="/usr/bin/java"
+
 # begin an ssh agent for ssh keys
 # eval "$(ssh-agent)"
