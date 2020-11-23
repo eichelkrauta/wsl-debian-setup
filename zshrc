@@ -104,9 +104,5 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 export JAVA_HOME="/usr/local/lib/java/jdk-15"
 
-# begin an ssh agent for ssh keys
-eval "$(ssh-agent)"
-ssh-add ~/.ssh/github
-
 # add gradle distribution (todo use same GRADLE_VERSION variable?)
 export PATH="/opt/gradle/gradle-6.7.1/bin:$PATH"
