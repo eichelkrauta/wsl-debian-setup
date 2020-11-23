@@ -14,3 +14,9 @@ sudo wget -qO- https://download.java.net/java/GA/jdk15/779bf45e88a44cbd9ea6621d3
 
 cp ./zshrc ~/.zshrc
 
+# IntelliJ
+wget https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.18.7609.tar.gz\?_ga\=2.106651530.827336593.1605463161-1658428318.1601744836 -O intellij.tar.gz
+mkdir -p intellij
+tar xvz -f intellij.tar.gz -C ./intellij
+
+rm intellij.tar.gz
