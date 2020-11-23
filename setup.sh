@@ -20,3 +20,6 @@ mkdir -p intellij
 tar xvz -f intellij.tar.gz -C ./intellij
 
 rm intellij.tar.gz
+
+./install-scripts/gradle.sh
+./install-scripts/refresh-zshrc.sh
